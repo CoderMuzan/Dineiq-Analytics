@@ -1,0 +1,3 @@
+stockout_week,n_item_days,units_sold,wasted_portions,wastage_pct
+True,5251,17324,975.0,0.05328160008743647
+False,605177,1446703,107255.0,0.0690205269383085

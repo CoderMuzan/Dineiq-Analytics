@@ -1,0 +1,8 @@
+relationship,spearman_correlation,n
+dish rating vs profit %,0.3821989124170552,167
+dish rating vs sales (units),0.16886387851076493,167
+dish rating vs repeat purchase rate,0.1645931325408305,167
+dish rating vs wastage %,-0.06119856585514188,167
+restaurant rating vs revenue,0.03913043478260869,24
+restaurant rating vs profit %,0.3321739130434782,24
+restaurant rating vs repeat customer rate,0.11478260869565216,24

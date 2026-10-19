@@ -1,0 +1,143 @@
+erDiagram
+    MENU_CATEGORIES ||--o{ MENU_ITEMS : "classifies"
+    MENU_ITEMS ||--o{ PRICING_HISTORY : "has price periods"
+    MENU_ITEMS ||--o{ ORDER_ITEMS : "is sold as"
+    MENU_ITEMS ||--o{ RATINGS : "is rated"
+    MENU_ITEMS ||--o{ INVENTORY : "is stocked"
+    MENU_ITEMS ||--o{ WASTAGE : "is wasted"
+    MENU_ITEMS ||--o{ PROMOTION_ITEMS : "is in scope of"
+    PROMOTIONS ||--o{ PROMOTION_ITEMS : "applies to"
+    PROMOTIONS |o--o{ ORDERS : "is redeemed on"
+    CUSTOMERS |o--o{ ORDERS : "places (guest = no customer)"
+    CUSTOMERS |o--o{ RATINGS : "writes"
+    RESTAURANTS ||--o{ ORDERS : "receives"
+    RESTAURANTS ||--o{ RATINGS : "is rated"
+    RESTAURANTS ||--o{ INVENTORY : "holds stock"
+    RESTAURANTS ||--o{ WASTAGE : "records waste"
+    RESTAURANTS ||--o{ CUSTOMERS : "is home restaurant of"
+    ORDERS ||--|{ ORDER_ITEMS : "contains"
+    ORDERS |o--o{ RATINGS : "may be rated"
+
+    MENU_CATEGORIES {
+        string category_id PK
+        string category_name
+        string perishability
+        string meal_period
+    }
+    MENU_ITEMS {
+        string item_id PK
+        string item_name
+        string category_id FK
+        float base_price
+        float base_cost
+        int portion_weight_g
+        date launch_date
+        date available_from
+        date available_to
+        bool is_active
+        string season_tag
+    }
+    PRICING_HISTORY {
+        string price_id PK
+        string item_id FK
+        date effective_from
+        date effective_to
+        float price
+        float unit_cost
+        string change_reason
+    }
+    RESTAURANTS {
+        string location_id PK
+        string restaurant_name
+        string city
+        string state
+        string region
+        date opening_date
+        int seating_capacity
+        string size_tier
+    }
+    CUSTOMERS {
+        string customer_id PK
+        date signup_date
+        string age_band
+        string home_location_id FK
+        string preferred_channel
+        string acquisition_source
+        bool loyalty_member
+    }
+    PROMOTIONS {
+        string promo_id PK
+        string promo_name
+        string promo_type
+        float discount_pct
+        date start_date
+        date end_date
+        string applicable_days
+        string channel_restriction
+        string target_segment
+    }
+    PROMOTION_ITEMS {
+        string promo_id PK
+        string item_id PK
+    }
+    ORDERS {
+        string order_id PK
+        string customer_id FK
+        string location_id FK
+        string order_datetime
+        string channel
+        string delivery_platform
+        string order_status
+        string promo_id FK
+        int party_size
+        float subtotal
+        float discount_total
+        float delivery_fee
+        float platform_fee
+        float total_amount
+        string payment_method
+    }
+    ORDER_ITEMS {
+        string order_line_id PK
+        string order_id FK
+        string item_id FK
+        int quantity
+        float unit_price
+        float discount_amount
+        float line_total
+    }
+    RATINGS {
+        string rating_id PK
+        string order_id FK
+        string customer_id FK
+        string item_id FK
+        string location_id FK
+        int rating_value
+        date rating_date
+        string source
+    }
+    INVENTORY {
+        string inventory_id PK
+        date week_start_date
+        string location_id FK
+        string item_id FK
+        float opening_stock
+        float replenished_qty
+        float consumed_qty
+        float closing_stock
+        float reorder_level
+        bool stockout_flag
+        string unit
+    }
+    WASTAGE {
+        string wastage_id PK
+        date wastage_date
+        string location_id FK
+        string item_id FK
+        string shift
+        float prep_quantity
+        float quantity_wasted
+        string unit
+        float wastage_cost
+        string reason
+    }

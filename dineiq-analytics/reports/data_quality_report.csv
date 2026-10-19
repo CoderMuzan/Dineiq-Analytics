@@ -1,0 +1,42 @@
+table,check,rule,rows,total,pct,severity
+orders,Duplicate orders,same order_id appears more than once (extra copies),1545,388130,0.3981,HIGH
+orders,Missing order date,order_datetime is NULL,0,388130,0.0,HIGH
+orders,Invalid date (unparseable),order_datetime is not 'yyyy-MM-dd HH:mm:ss' (e.g. 2026-13-45),127,388130,0.0327,HIGH
+orders,Invalid date (out of period),parsed date outside 2025-10-01 .. 2026-09-30,64,388130,0.0165,HIGH
+orders,Missing restaurant id,location_id is NULL,234,388130,0.0603,HIGH
+orders,Invalid restaurant id,location_id not in restaurants,376,388130,0.0969,HIGH
+orders,Missing customer id,"customer_id is NULL (guest checkout - legitimate, but no customer analytics possible)",46704,388130,12.0331,INFO
+orders,Missing payment method,payment_method is NULL,7783,388130,2.0053,MEDIUM
+orders,Cancelled transactions,order_status = CANCELLED,11484,388130,2.9588,INFO
+orders,Refunded transactions,order_status = REFUNDED,3587,388130,0.9242,INFO
+orders,Void transactions,order_status = VOID,2221,388130,0.5722,INFO
+orders,Unknown promotion id,promo_id not in promotions,0,388130,0.0,MEDIUM
+orders,Negative order total,total_amount < 0,0,388130,0.0,HIGH
+order_items,Duplicate order lines,same order_line_id appears more than once (extra copies),3462,1157551,0.2991,HIGH
+order_items,Missing menu id,item_id is NULL,1104,1157551,0.0954,HIGH
+order_items,Unknown menu id,item_id not in menu_items,1164,1157551,0.1006,HIGH
+order_items,Negative or zero quantity,quantity <= 0,602,1157551,0.052,HIGH
+order_items,Missing quantity,quantity is NULL,0,1157551,0.0,HIGH
+order_items,Invalid menu price,unit_price <= 0,469,1157551,0.0405,HIGH
+order_items,Extreme menu price,unit_price more than 4x the item's median list price,207,1157551,0.0179,HIGH
+order_items,Incorrect discount,discount < 0 or discount > quantity x unit_price,906,1157551,0.0783,HIGH
+order_items,Line total does not add up,line_total != quantity x unit_price - discount,0,1157551,0.0,MEDIUM
+order_items,Orphan order lines,order_id not found in orders,0,1157551,0.0,HIGH
+orders,Duplicate transactions (near-duplicates),"same customer, restaurant, channel, basket and total again within 200 seconds",331,388130,0.0853,HIGH
+customers,Duplicate customers,same customer_id appears more than once,110,55110,0.1996,MEDIUM
+customers,Missing age band,age_band is NULL,2155,55110,3.9104,MEDIUM
+customers,Invalid home restaurant,home_location_id not in restaurants,0,55110,0.0,MEDIUM
+menu_items,Missing description,description is NULL,4,168,2.381,INFO
+pricing_history,Invalid menu prices,price <= 0 or outside 0.5x..3.0x of base_price,6,437,1.373,HIGH
+pricing_history,Item without valid price,item_id not in menu_items,0,437,0.0,MEDIUM
+ratings,Invalid ratings,rating_value not in 1..5,294,140565,0.2092,HIGH
+ratings,Invalid restaurant id,location_id not in restaurants,75,140565,0.0534,MEDIUM
+ratings,Ratings without a purchase,"order_id is NULL (not an error, but suspicious - used by anomaly detection)",880,140565,0.626,INFO
+ratings,Restaurant-level ratings,"item_id is NULL (rating of the restaurant, not a dish)",29759,140565,21.171,INFO
+wastage,Inconsistent units,"unit is not 'portion' (found: PORTION, Portion, g, kg, pcs, portion, portions)",8106,90318,8.975,HIGH
+wastage,Impossible wastage quantities,"quantity <= 0, more than was prepared, or > 1000 portions",50,90318,0.0554,HIGH
+wastage,Missing menu id,item_id is NULL,52,90318,0.0576,MEDIUM
+wastage,Invalid restaurant id,location_id not in restaurants,38,90318,0.0421,MEDIUM
+inventory,Negative stock,closing_stock < 0,96,198178,0.0484,HIGH
+inventory,Inconsistent units,unit is not 'portion' (kg rows must be converted),3873,198178,1.9543,HIGH
+inventory,Invalid restaurant id,location_id not in restaurants,106,198178,0.0535,MEDIUM

@@ -1,0 +1,94 @@
+job,step,seconds,logged_at
+02_data_quality,orders checks,14.38,2026-10-10 19:30:05
+02_data_quality,order_items checks,34.2,2026-10-10 19:30:39
+02_data_quality,reference tables checks,3.13,2026-10-10 19:30:42
+02_data_quality,ratings checks,1.9,2026-10-10 19:30:44
+02_data_quality,wastage + inventory checks,4.16,2026-10-10 19:30:49
+03_clean,customers,9.19,2026-10-10 19:31:12
+03_clean,pricing_history,3.85,2026-10-10 19:31:16
+03_clean,orders + lines classification,38.38,2026-10-10 19:31:55
+03_clean,order_items cleaning,33.06,2026-10-10 19:32:28
+03_clean,orders final,24.98,2026-10-10 19:32:53
+03_clean,ratings,15.13,2026-10-10 19:33:08
+03_clean,wastage,6.35,2026-10-10 19:33:14
+03_clean,inventory,7.36,2026-10-10 19:33:22
+03_clean,reference tables,1.11,2026-10-10 19:33:23
+04_integrate,SQL 01 lookup tables,8.65,2026-10-10 19:33:56
+04_integrate,SQL 02 fact_order_lines,21.37,2026-10-10 19:34:18
+04_integrate,SQL 03 daily_item_location,34.95,2026-10-10 19:34:53
+05_features,order_features,17.31,2026-10-10 19:35:44
+05_features,item_features,20.11,2026-10-10 19:36:04
+05_features,customer_features,19.08,2026-10-10 19:36:23
+05_features,location_features,6.63,2026-10-10 19:36:30
+01_ingest,load+validate orders,11.81,2026-10-10 19:41:44
+01_ingest,load+validate order_items,6.61,2026-10-10 19:41:51
+01_ingest,load+validate customers,2.02,2026-10-10 19:41:53
+01_ingest,load+validate menu_items,0.78,2026-10-10 19:41:53
+01_ingest,load+validate menu_categories,0.74,2026-10-10 19:41:54
+01_ingest,load+validate restaurants,0.77,2026-10-10 19:41:55
+01_ingest,load+validate pricing_history,0.73,2026-10-10 19:41:56
+01_ingest,load+validate promotions,0.68,2026-10-10 19:41:56
+01_ingest,load+validate promotion_items,0.64,2026-10-10 19:41:57
+01_ingest,load+validate ratings,1.9,2026-10-10 19:41:59
+01_ingest,load+validate wastage,1.36,2026-10-10 19:42:00
+01_ingest,load+validate inventory,1.92,2026-10-10 19:42:02
+01_ingest,multi-file read orders,1.41,2026-10-10 19:42:04
+01_ingest,multi-file read order_items,1.14,2026-10-10 19:42:05
+01_ingest,partition-pruned read (one month),0.17,2026-10-10 19:42:10
+06_analytics,10_eda_channels.sql,1.42,2026-10-11 21:02:36
+05_features,order_features,32.59,2026-10-11 21:04:00
+05_features,item_features,35.99,2026-10-11 21:04:36
+05_features,customer_features,30.62,2026-10-11 21:05:07
+05_features,location_features,10.98,2026-10-11 21:05:18
+06_analytics,10_eda_channels.sql,25.16,2026-10-11 21:06:35
+06_analytics,11_menu_classification.sql,3.74,2026-10-11 21:06:39
+06_analytics,10_eda_channels.sql,28.22,2026-10-11 21:07:56
+06_analytics,11_menu_classification.sql,27.68,2026-10-11 21:08:24
+06_analytics,12_customers.sql,18.2,2026-10-11 21:08:42
+06_analytics,13_baskets.sql,45.2,2026-10-11 21:09:28
+06_analytics,14_peak_periods.sql,16.04,2026-10-11 21:09:44
+06_analytics,15_wastage.sql,16.32,2026-10-11 21:10:00
+05_features,order_features,24.55,2026-10-12 10:45:41
+05_features,item_features,22.74,2026-10-12 10:46:03
+05_features,customer_features,18.66,2026-10-12 10:46:22
+05_features,location_features,7.26,2026-10-12 10:46:29
+06_analytics,10_eda_channels.sql,17.95,2026-10-12 10:47:19
+06_analytics,11_menu_classification.sql,34.77,2026-10-12 10:47:54
+06_analytics,12_customers.sql,10.59,2026-10-12 10:48:05
+06_analytics,13_baskets.sql,29.99,2026-10-12 10:48:35
+06_analytics,14_peak_periods.sql,11.18,2026-10-12 10:48:46
+06_analytics,15_wastage.sql,10.4,2026-10-12 10:48:56
+07_pricing_promos,price sensitivity,4.28,2026-10-12 10:51:30
+07_pricing_promos,price sensitivity,8.37,2026-10-12 10:52:11
+07_pricing_promos,promotions,8.67,2026-10-12 10:52:20
+07_pricing_promos,location scorecard,0.98,2026-10-12 10:52:21
+07_pricing_promos,price sensitivity,8.64,2026-10-12 10:53:41
+07_pricing_promos,promotions,8.71,2026-10-12 10:53:50
+07_pricing_promos,location scorecard,0.99,2026-10-12 10:53:51
+07_pricing_promos,price sensitivity,9.16,2026-10-12 10:55:05
+07_pricing_promos,promotions,9.87,2026-10-12 10:55:15
+07_pricing_promos,location scorecard,0.99,2026-10-12 10:55:16
+07_pricing_promos,price sensitivity,8.94,2026-10-12 10:56:07
+07_pricing_promos,promotions,9.05,2026-10-12 10:56:16
+07_pricing_promos,location scorecard,0.9,2026-10-12 10:56:17
+08_anomalies,sales anomalies,16.79,2026-10-12 21:12:14
+08_anomalies,rating anomalies,12.31,2026-10-12 21:12:26
+08_anomalies,satisfaction analysis,6.3,2026-10-12 21:12:32
+08_anomalies,sales anomalies,13.07,2026-10-12 21:13:30
+08_anomalies,rating anomalies,13.52,2026-10-12 21:13:44
+08_anomalies,satisfaction analysis,6.63,2026-10-12 21:13:50
+08_anomalies,sales anomalies,12.04,2026-10-12 21:14:32
+08_anomalies,rating anomalies,13.52,2026-10-12 21:14:46
+08_anomalies,satisfaction analysis,6.89,2026-10-12 21:14:52
+08_anomalies,sales anomalies,12.33,2026-10-12 21:15:33
+08_anomalies,rating anomalies,13.62,2026-10-12 21:15:47
+08_anomalies,satisfaction analysis,6.46,2026-10-12 21:15:53
+08_anomalies,sales anomalies,13.61,2026-10-12 21:16:41
+08_anomalies,rating anomalies,15.23,2026-10-12 21:16:56
+08_anomalies,satisfaction analysis,6.79,2026-10-12 21:17:03
+06_analytics,10_eda_channels.sql,16.28,2026-10-12 21:19:08
+06_analytics,11_menu_classification.sql,28.7,2026-10-12 21:19:37
+06_analytics,12_customers.sql,12.11,2026-10-12 21:19:49
+06_analytics,13_baskets.sql,29.67,2026-10-12 21:20:18
+06_analytics,14_peak_periods.sql,9.82,2026-10-12 21:20:28
+06_analytics,15_wastage.sql,10.05,2026-10-12 21:20:38

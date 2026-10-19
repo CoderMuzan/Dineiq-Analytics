@@ -1,0 +1,13 @@
+category_id,category_name,perishability,meal_period
+C01,Starters,MEDIUM,ALL_DAY
+C02,Soups & Stews,MEDIUM,ALL_DAY
+C03,Rice & Grains,MEDIUM,ALL_DAY
+C04,Grills & BBQ,MEDIUM,ALL_DAY
+C05,Burgers & Sandwiches,LOW,ALL_DAY
+C06,Pizza & Pasta,LOW,ALL_DAY
+C07,Sides,MEDIUM,ALL_DAY
+C08,Desserts,HIGH,ALL_DAY
+C09,Cold Drinks,LOW,ALL_DAY
+C10,Hot Drinks,LOW,ALL_DAY
+C11,Kids Meals,MEDIUM,ALL_DAY
+C12,Breakfast & Brunch,HIGH,BREAKFAST

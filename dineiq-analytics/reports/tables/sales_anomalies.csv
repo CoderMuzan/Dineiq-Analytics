@@ -1,0 +1,80 @@
+anomaly_type,entity_type,entity,start_date,end_date,observed,expected,ratio,n_items,detail,explained_by_promotion
+SALES_DROP,RESTAURANT,L07,2026-02-06,2026-02-08,0.0,54.43507233748391,0.0,3,0 orders/day against about 54 expected for its usual share of chain orders,False
+SALES_SPIKE,RESTAURANT,L08,2026-05-23,2026-05-23,223.0,55.53138953384533,4.015746803239738,1,223 orders/day against about 56 expected for its usual share of chain orders,False
+SUSTAINED_SALES_DROP,RESTAURANT,L12,2026-07-15,2026-09-05,0.014529199171283702,0.020866695786194402,0.6962865285502631,53,share of chain orders fell to 70% of its earlier level (14-day average vs the 56 days before),False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00276955,2026-06-11,2026-06-11,976500.0,12300.0,79.39024390243902,216,"L03, TAKEAWAY: 976,500 NGN, 216 units (robust z 6.4)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00368045,2026-09-18,2026-09-18,901200.0,12300.0,73.26829268292683,156,"L02, TAKEAWAY: 901,200 NGN, 156 units (robust z 6.3)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00335193,2026-08-18,2026-08-18,894850.0,12300.0,72.7520325203252,132,"L02, TAKEAWAY: 894,850 NGN, 132 units (robust z 6.3)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00174515,2026-02-25,2026-02-25,852300.0,12300.0,69.29268292682927,144,"L02, TAKEAWAY: 852,300 NGN, 144 units (robust z 6.2)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00276983,2026-06-11,2026-06-11,804000.0,12300.0,65.36585365853658,135,"L02, TAKEAWAY: 804,000 NGN, 135 units (robust z 6.2)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00179796,2026-03-02,2026-03-02,778500.0,12300.0,63.292682926829265,180,"L16, TAKEAWAY: 778,500 NGN, 180 units (robust z 6.1)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00198408,2026-03-18,2026-03-18,749250.0,12300.0,60.91463414634146,150,"L16, TAKEAWAY: 749,250 NGN, 150 units (robust z 6.0)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00085242,2025-12-10,2025-12-10,640900.0,12300.0,52.10569105691057,156,"L03, TAKEAWAY: 640,900 NGN, 156 units (robust z 5.8)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00329268,2026-08-12,2026-08-12,624800.0,12300.0,50.796747967479675,160,"L03, TAKEAWAY: 624,800 NGN, 160 units (robust z 5.8)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00057512,2025-11-19,2025-11-19,592800.0,12300.0,48.19512195121951,152,"L16, TAKEAWAY: 592,800 NGN, 152 units (robust z 5.7)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00003130,2025-10-03,2025-10-03,577500.0,12300.0,46.951219512195124,120,"L02, TAKEAWAY: 577,500 NGN, 120 units (robust z 5.7)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00336063,2026-08-19,2026-08-19,574750.0,12300.0,46.72764227642276,133,"L03, TAKEAWAY: 574,750 NGN, 133 units (robust z 5.7)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00154972,2026-02-05,2026-02-05,564400.0,12300.0,45.886178861788615,170,"L02, TAKEAWAY: 564,400 NGN, 170 units (robust z 5.6)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00016892,2025-10-15,2025-10-15,558000.0,12300.0,45.36585365853659,81,"L16, TAKEAWAY: 558,000 NGN, 81 units (robust z 5.6)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00103799,2025-12-23,2025-12-23,544500.0,12300.0,44.26829268292683,165,"L03, TAKEAWAY: 544,500 NGN, 165 units (robust z 5.6)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00121524,2026-01-01,2026-01-01,528700.0,12300.0,42.983739837398375,204,"L16, TAKEAWAY: 528,700 NGN, 204 units (robust z 5.5)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00373486,2026-09-22,2026-09-22,522000.0,12300.0,42.4390243902439,120,"L02, TAKEAWAY: 522,000 NGN, 120 units (robust z 5.5)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00126509,2026-01-05,2026-01-05,510000.0,12300.0,41.46341463414634,180,"L03, TAKEAWAY: 510,000 NGN, 180 units (robust z 5.5)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00324349,2026-08-07,2026-08-07,508950.0,12300.0,41.3780487804878,126,"L03, TAKEAWAY: 508,950 NGN, 126 units (robust z 5.5)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00129630,2026-01-09,2026-01-09,508000.0,12300.0,41.300813008130085,100,"L02, TAKEAWAY: 508,000 NGN, 100 units (robust z 5.5)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00289612,2026-06-26,2026-06-26,506400.0,12300.0,41.170731707317074,160,"L02, TAKEAWAY: 506,400 NGN, 160 units (robust z 5.5)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00236041,2026-04-24,2026-04-24,485100.0,12300.0,39.4390243902439,132,"L16, TAKEAWAY: 485,100 NGN, 132 units (robust z 5.4)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00348961,2026-09-01,2026-09-01,458250.0,12300.0,37.25609756097561,120,"L02, TAKEAWAY: 458,250 NGN, 120 units (robust z 5.3)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00215355,2026-04-02,2026-04-02,458150.0,12300.0,37.2479674796748,119,"L16, TAKEAWAY: 458,150 NGN, 119 units (robust z 5.3)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00306292,2026-07-17,2026-07-17,457900.0,12300.0,37.22764227642276,133,"L16, TAKEAWAY: 457,900 NGN, 133 units (robust z 5.3)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00363788,2026-09-14,2026-09-14,442000.0,12300.0,35.9349593495935,136,"L02, TAKEAWAY: 442,000 NGN, 136 units (robust z 5.3)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00327718,2026-08-10,2026-08-10,441000.0,12300.0,35.853658536585364,96,"L03, TAKEAWAY: 441,000 NGN, 96 units (robust z 5.3)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00336000,2026-08-19,2026-08-19,423000.0,12300.0,34.390243902439025,120,"L16, TAKEAWAY: 423,000 NGN, 120 units (robust z 5.2)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00229688,2026-04-16,2026-04-16,413600.0,12300.0,33.6260162601626,144,"L16, TAKEAWAY: 413,600 NGN, 144 units (robust z 5.2)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00093137,2025-12-16,2025-12-16,390000.0,12300.0,31.70731707317073,117,"L03, TAKEAWAY: 390,000 NGN, 117 units (robust z 5.1)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00373601,2026-09-22,2026-09-22,385000.0,12300.0,31.30081300813008,88,"L03, TAKEAWAY: 385,000 NGN, 88 units (robust z 5.1)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00094213,2025-12-17,2025-12-17,380400.0,12300.0,30.926829268292682,132,"L03, TAKEAWAY: 380,400 NGN, 132 units (robust z 5.0)",False
+ABNORMAL_ORDER_VALUE,ORDER,ORD00018654,2025-10-17,2025-10-17,373100.0,12300.0,30.333333333333332,117,"L16, TAKEAWAY: 373,100 NGN, 117 units (robust z 5.0)",False
+UNUSUAL_DISCOUNT,RESTAURANT,L13,2025-10-02,2026-09-30,0.747507261239806,0.0,,137,137 orders discounted by 75% on average with no promotion applied,False
+UNEXPECTED_DEMAND,ITEM,M003,2025-11-19,2025-11-19,54.0,13.0,3.713321030114923,1,"Spring Rolls: 54 units/day, 3.7x its usual share of chain sales on that weekday (no promotion explains it)",False
+UNEXPECTED_DEMAND,ITEM,M005,2026-07-15,2026-07-15,84.0,46.0,2.528469468675654,1,"Puff Puff Bites: 84 units/day, 2.5x its usual share of chain sales on that weekday (a promotion explains it: P010)",True
+UNEXPECTED_DEMAND,ITEM,M007,2026-09-18,2026-09-18,81.0,21.0,2.8809942062019434,1,"Calamari Rings: 81 units/day, 2.9x its usual share of chain sales on that weekday (no promotion explains it)",False
+UNEXPECTED_DEMAND,ITEM,M038,2026-08-18,2026-08-18,65.0,10.0,6.505012988639705,1,"Fisherman Rice: 65 units/day, 6.5x its usual share of chain sales on that weekday (no promotion explains it)",False
+UNEXPECTED_DEMAND,ITEM,M057,2025-11-07,2025-11-08,281.0,61.0,2.8919752192220103,2,"Classic Beef Burger: 281 units/day, 2.9x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M057,2025-11-10,2025-11-10,168.0,61.0,2.6145815583180876,1,"Classic Beef Burger: 168 units/day, 2.6x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M057,2025-11-12,2025-11-14,222.0,61.0,2.8306567905027573,3,"Classic Beef Burger: 222 units/day, 2.8x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M057,2025-11-16,2025-11-16,231.0,61.0,2.549040162916894,1,"Classic Beef Burger: 231 units/day, 2.5x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M058,2025-11-03,2025-11-03,111.0,36.0,2.823750893456482,1,"Double Cheeseburger: 111 units/day, 2.8x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M058,2025-11-05,2025-11-06,115.0,36.0,2.7441527019732437,2,"Double Cheeseburger: 115 units/day, 2.7x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M058,2025-11-08,2025-11-10,138.66666666666666,36.0,2.705905417573213,3,"Double Cheeseburger: 139 units/day, 2.7x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M058,2025-11-12,2025-11-16,139.4,36.0,2.8069257036941617,5,"Double Cheeseburger: 139 units/day, 2.8x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M062,2025-11-04,2025-11-04,71.0,22.0,3.0767068480474205,1,"Club Sandwich: 71 units/day, 3.1x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M062,2025-11-07,2025-11-07,103.0,22.0,3.567014354391032,1,"Club Sandwich: 103 units/day, 3.6x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M062,2025-11-09,2025-11-09,103.0,22.0,3.6112321435639787,1,"Club Sandwich: 103 units/day, 3.6x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M062,2025-11-11,2025-11-11,69.0,22.0,3.0361223639138153,1,"Club Sandwich: 69 units/day, 3.0x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M062,2025-11-14,2025-11-14,102.0,22.0,3.45027945307292,1,"Club Sandwich: 102 units/day, 3.5x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M063,2025-11-03,2025-11-07,81.2,18.0,3.948785872110336,5,"Chicken Shawarma Wrap: 81 units/day, 3.9x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M063,2025-11-11,2025-11-11,78.0,18.0,4.02662446154664,1,"Chicken Shawarma Wrap: 78 units/day, 4.0x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M063,2025-11-13,2025-11-16,101.5,18.0,3.9213576244249797,4,"Chicken Shawarma Wrap: 102 units/day, 3.9x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M064,2025-11-06,2025-11-06,72.0,15.0,4.1173710633525165,1,"Beef Shawarma Wrap: 72 units/day, 4.1x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M064,2025-11-09,2025-11-09,60.0,15.0,3.2734540242608525,1,"Beef Shawarma Wrap: 60 units/day, 3.3x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M064,2025-11-12,2025-11-13,65.5,15.0,3.6044222337544545,2,"Beef Shawarma Wrap: 66 units/day, 3.6x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M064,2025-11-16,2025-11-16,62.0,15.0,3.3394353066324505,1,"Beef Shawarma Wrap: 62 units/day, 3.3x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M065,2025-11-03,2025-11-03,130.0,46.0,2.7310334383364445,1,"Hot Dog Classic: 130 units/day, 2.7x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M065,2025-11-05,2025-11-07,165.66666666666666,46.0,2.8713322579757032,3,"Hot Dog Classic: 166 units/day, 2.9x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M065,2025-11-11,2025-11-15,166.4,46.0,2.7561273930184083,5,"Hot Dog Classic: 166 units/day, 2.8x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M066,2025-11-16,2025-11-16,74.0,14.0,4.047813923854507,1,"Fish Burger: 74 units/day, 4.0x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M067,2025-11-07,2025-11-08,65.0,12.0,3.5449440748475487,2,"BLT Sandwich: 65 units/day, 3.5x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M067,2025-11-15,2025-11-15,87.0,12.0,4.598974345010679,1,"BLT Sandwich: 87 units/day, 4.6x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M068,2025-11-05,2025-11-07,62.0,16.0,3.176887103636847,3,"Philly Steak Sandwich: 62 units/day, 3.2x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M068,2025-11-14,2025-11-16,68.66666666666667,16.0,3.1051529528101196,3,"Philly Steak Sandwich: 69 units/day, 3.1x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M069,2025-11-07,2025-11-09,109.66666666666667,27.0,2.7652063552747657,3,"Egg Sandwich: 110 units/day, 2.8x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M069,2025-11-14,2025-11-16,110.66666666666667,27.0,2.816190145728356,3,"Egg Sandwich: 111 units/day, 2.8x its usual share of chain sales on that weekday (a promotion explains it: P002)",True
+UNEXPECTED_DEMAND,ITEM,M075,2026-08-31,2026-08-31,62.0,23.0,4.387633582131092,1,"Suya Pizza: 62 units/day, 4.4x its usual share of chain sales on that weekday (no promotion explains it)",False
+UNEXPECTED_DEMAND,ITEM,M081,2026-03-18,2026-03-18,55.0,16.0,3.5512032770097286,1,"Lasagna: 55 units/day, 3.6x its usual share of chain sales on that weekday (a promotion explains it: P007)",True
+UNEXPECTED_DEMAND,ITEM,M114,2026-01-01,2026-01-01,149.0,33.0,3.1093604557337824,1,"Orange Soda 50cl: 149 units/day, 3.1x its usual share of chain sales on that weekday (a promotion explains it: P004)",True
+UNEXPECTED_DEMAND,ITEM,M119,2025-12-10,2025-12-10,71.0,20.0,3.5521385542168673,1,"Pineapple Juice: 71 units/day, 3.6x its usual share of chain sales on that weekday (no promotion explains it)",False
+UNEXPECTED_DEMAND,ITEM,M151,2026-06-11,2026-06-11,74.0,4.0,22.909132895217237,1,"Kids Mac & Cheese: 74 units/day, 22.9x its usual share of chain sales on that weekday (no promotion explains it)",False
+UNEXPECTED_DEMAND,ITEM,M158,2026-02-06,2026-02-06,60.0,18.0,3.1031061305388485,1,"Cheese Omelette: 60 units/day, 3.1x its usual share of chain sales on that weekday (no promotion explains it)",False
+UNEXPECTED_DEMAND,ITEM,M163,2026-08-07,2026-08-07,75.0,19.5,3.0124486350283024,1,"Breakfast Burrito: 75 units/day, 3.0x its usual share of chain sales on that weekday (no promotion explains it)",False
+DUPLICATE_TRANSACTIONS,CHAIN,ALL,2025-10-01,2026-09-30,331.0,0.0,,331,"331 near-duplicate transactions (same customer, basket and total within 200s) and 1545 exact duplicate order rows were removed in cleaning",False

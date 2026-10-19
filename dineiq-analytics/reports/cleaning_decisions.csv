@@ -1,0 +1,38 @@
+table,rule_id,condition,action,rows,why
+customers,C-01,same customer_id repeated,REMOVE,110,identical copies of a profile; one is enough
+customers,C-02,age_band is NULL,REPAIR,2152,filled with 'UNKNOWN' so group-bys do not silently drop customers
+pricing_history,P-01,price <= 0 or outside 0.5x..3.0x base price,QUARANTINE,6,wrong price; the previous valid period's price is used for that period via the as-of lookup (rule L-05)
+orders,O-01,same order_id repeated,REMOVE,1545,exact copies of an order header
+order_items,L-01,same order_line_id repeated,REMOVE,3462,exact copies of an order line
+orders,O-03,order date outside 2025-10-01..2026-09-30,QUARANTINE,64,future / ancient dates are impossible for this dataset
+orders,O-04,location_id missing or not in restaurants,QUARANTINE,610,cannot be attributed to a restaurant; guessing would corrupt location analysis
+orders,O-02,order_datetime missing or impossible (e.g. 2026-13-45),QUARANTINE,125,an order without a date cannot be placed in time; the date cannot be guessed
+orders,O-05,"same customer, restaurant, channel, basket and total again within 200s",QUARANTINE,331,"a double-submitted transaction; the first one is kept, the repeat would double-count revenue"
+orders,O-06,order_status = VOID,ROUTE,2208,valid record but not revenue; kept in clean_data/cancelled_orders for cancellation analysis
+orders,O-06,order_status = CANCELLED,ROUTE,11415,valid record but not revenue; kept in clean_data/cancelled_orders for cancellation analysis
+orders,O-06,order_status = REFUNDED,ROUTE,3572,valid record but not revenue; kept in clean_data/cancelled_orders for cancellation analysis
+order_items,L-03,parent order quarantined (invalid date),QUARANTINE,378,lines follow their order
+order_items,L-03,parent order quarantined (invalid location),QUARANTINE,1804,lines follow their order
+order_items,L-03,parent order quarantined (near-duplicate),QUARANTINE,974,lines follow their order
+order_items,L-03,parent order quarantined (date out of period),QUARANTINE,181,lines follow their order
+order_items,L-04,item_id not in menu_items,QUARANTINE,1116,"unknown dish: no cost, category or price to analyse (a NEW item in hidden data should be added to the menu first)"
+order_items,L-04,quantity <= 0 or NULL,QUARANTINE,573,negative / zero quantity is not a sale; not repairable
+order_items,L-04,item_id is NULL,QUARANTINE,1053,cannot tell what was sold; item-level and profit analysis would be wrong
+order_items,L-05,unit_price <= 0 or outside 0.5x..2.0x of the list price on the order date,REPAIR,631,replaced by the list price valid on the order date (pricing_history as-of lookup)
+order_items,L-06,discount < 0 or discount > quantity x price,REPAIR,548,"recomputed from the order's promotion (discount_pct x gross if the item is in promotion scope, else 0). Large but valid discounts (e.g. manual 60-90%) are NOT changed - they are anomalies to detect later"
+order_items,L-07,line_total recomputed,REPAIR,1096701,line_total = quantity x unit_price - discount_amount for every kept line
+order_items,L-08,lines of cancelled / refunded / void orders,ROUTE,51309,stored in clean_data/cancelled_order_items
+orders,O-07,no valid line left after line cleaning (or no lines at all),QUARANTINE,128,an order without items has no analytical value
+orders,O-08,payment_method is NULL,REPAIR,7412,filled with 'UNKNOWN'
+orders,O-09,customer_id is NULL,FLAG,44253,"kept; column is_guest = true (guest checkout is legitimate, but excluded from customer analytics)"
+orders,O-10,order totals recomputed from the cleaned lines,REPAIR,2624,"subtotal, discount_total and total_amount now equal the sum of the kept lines; originals kept in *_original columns"
+ratings,R-01,rating_value not in 1..5,QUARANTINE,294,impossible score; cannot know the real one
+ratings,R-03,location_id invalid but order_id points to a valid order,REPAIR,75,restaurant taken from the rated order
+ratings,R-04,order_id is NULL (no purchase),FLAG,879,kept; has_purchase_link = false. Used later by rating-anomaly detection (do NOT delete: these may be fake reviews)
+wastage,W-01,item_id is NULL,QUARANTINE,52,cannot attribute waste to a dish
+wastage,W-01,location_id not in restaurants,QUARANTINE,38,cannot attribute waste to a restaurant
+wastage,W-02,"quantity <= 0, larger than the prepared quantity, or > 1000 portions (after unit conversion)",QUARANTINE,50,physically impossible; cannot be repaired
+wastage,W-03,unit is kg / g / pcs / Portion / PORTION / portions (anything but exactly 'portion'),REPAIR,8089,"all quantities converted to portions: kg x 1000 / portion_weight_g, g / portion_weight_g, pcs and spelling variants = portions"
+inventory,I-01,location_id not in restaurants,QUARANTINE,106,cannot attribute stock to a restaurant
+inventory,I-02,unit = kg,REPAIR,3870,converted to portions with portion_weight_g
+inventory,I-03,closing_stock < 0,REPAIR,96,"recomputed: max(opening + replenished - consumed, 0)"

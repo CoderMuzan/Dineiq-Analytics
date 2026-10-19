@@ -1,0 +1,25 @@
+location_id,restaurant_name,area,city,state,region,opening_date,seating_capacity,size_tier
+L01,DineIQ Lekki Phase 1,Lekki Phase 1,Lagos,Lagos,South West,2022-03-10,90,LARGE
+L02,DineIQ Victoria Island,Victoria Island,Lagos,Lagos,South West,2021-06-01,120,LARGE
+L03,DineIQ Ikeja GRA,Ikeja GRA,Lagos,Lagos,South West,2021-09-15,100,LARGE
+L04,DineIQ Surulere,Surulere,Lagos,Lagos,South West,2022-08-20,70,MEDIUM
+L05,DineIQ Yaba,Yaba,Lagos,Lagos,South West,2022-01-12,75,MEDIUM
+L06,DineIQ Ajah,Ajah,Lagos,Lagos,South West,2023-02-03,65,MEDIUM
+L07,DineIQ Ikoyi,Ikoyi,Lagos,Lagos,South West,2021-11-05,80,LARGE
+L08,DineIQ Maryland,Maryland,Lagos,Lagos,South West,2022-10-18,85,MEDIUM
+L09,DineIQ Festac,Festac,Lagos,Lagos,South West,2023-05-22,60,MEDIUM
+L10,DineIQ Magodo,Magodo,Lagos,Lagos,South West,2023-07-14,55,SMALL
+L11,DineIQ Ogudu,Ogudu,Lagos,Lagos,South West,2023-09-09,50,SMALL
+L12,DineIQ Ikorodu,Ikorodu,Lagos,Lagos,South West,2024-01-20,55,SMALL
+L13,DineIQ Apapa,Apapa,Lagos,Lagos,South West,2022-12-01,60,SMALL
+L14,DineIQ Gbagada,Gbagada,Lagos,Lagos,South West,2023-11-30,55,SMALL
+L15,DineIQ Ojodu Berger,Ojodu Berger,Lagos,Lagos,South West,2024-03-16,50,SMALL
+L16,DineIQ Wuse II,Wuse II,Abuja,FCT,North Central,2022-04-25,95,LARGE
+L17,DineIQ Maitama,Maitama,Abuja,FCT,North Central,2022-07-08,100,LARGE
+L18,DineIQ Garki,Garki,Abuja,FCT,North Central,2023-03-27,60,MEDIUM
+L19,DineIQ GRA Phase 2,GRA Phase 2,Port Harcourt,Rivers,South South,2022-11-14,80,MEDIUM
+L20,DineIQ Rumuola,Rumuola,Port Harcourt,Rivers,South South,2023-08-05,55,SMALL
+L21,DineIQ Bodija,Bodija,Ibadan,Oyo,South West,2023-04-18,65,MEDIUM
+L22,DineIQ Independence Layout,Independence Layout,Enugu,Enugu,South East,2024-02-10,55,SMALL
+L23,DineIQ GRA Benin,GRA Benin,Benin City,Edo,South South,2024-05-06,55,SMALL
+L24,DineIQ Jabi Lake,Jabi Lake,Abuja,FCT,North Central,2026-03-01,70,MEDIUM

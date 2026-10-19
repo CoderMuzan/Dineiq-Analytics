@@ -1,0 +1,169 @@
+item_id,item_name,category_id,description,base_price,base_cost,portion_weight_g,prep_time_min,is_vegetarian,launch_date,available_from,available_to,is_active,season_tag
+M001,Peppered Snail,C01,Peppered Snail - starters signature,6500.0,1340.0,296,25,False,2023-12-12,,,True,NONE
+M002,Chicken Wings,C01,Chicken Wings - starters signature,5500.0,1470.0,231,17,False,2024-11-27,,,True,NONE
+M003,Spring Rolls,C01,Spring Rolls - starters signature,3500.0,1240.0,263,5,True,2022-08-12,,,True,NONE
+M004,Moi Moi Platter,C01,Moi Moi Platter - starters signature,3000.0,1120.0,261,24,True,2025-08-03,,,True,NONE
+M005,Puff Puff Bites,C01,Puff Puff Bites - starters signature,2000.0,780.0,178,24,True,2024-12-10,,,True,NONE
+M006,Suya Skewers,C01,Suya Skewers - starters signature,4500.0,1630.0,276,15,False,2023-10-05,,,True,NONE
+M007,Calamari Rings,C01,Calamari Rings - starters signature,6000.0,2180.0,268,18,False,2024-12-11,,,True,NONE
+M008,Bruschetta,C01,Bruschetta - starters signature,3800.0,1310.0,248,18,True,2024-08-09,,,True,NONE
+M009,Garlic Prawns,C01,Garlic Prawns - starters signature,8500.0,3150.0,195,14,False,2024-12-09,,,True,NONE
+M010,Nachos Supreme,C01,Nachos Supreme - starters signature,5200.0,1770.0,287,12,False,2023-08-13,,,True,NONE
+M011,Stuffed Mushrooms,C01,Stuffed Mushrooms - starters signature,4200.0,1480.0,272,13,True,2023-07-19,,,True,NONE
+M012,Akara Bites,C01,Akara Bites - starters signature,2200.0,810.0,224,25,True,2022-01-31,,,True,NONE
+M013,Gizdodo,C01,Gizdodo - starters signature,5000.0,1690.0,163,13,False,2025-07-19,,,True,NONE
+M014,Plantain Chips Dip,C01,Plantain Chips Dip - starters signature,2800.0,1020.0,268,17,True,2025-07-22,,,True,NONE
+M015,Egusi Soup,C02,Egusi Soup - soups & stews signature,6000.0,1470.0,345,20,False,2024-09-01,,,True,NONE
+M016,Ogbono Soup,C02,Ogbono Soup - soups & stews signature,6000.0,2350.0,314,23,False,2022-08-27,,,True,COLD_WEATHER
+M017,Efo Riro,C02,Efo Riro - soups & stews signature,5800.0,2100.0,321,8,False,2024-06-10,,,True,NONE
+M018,Okra Soup,C02,,5500.0,2240.0,322,33,False,2024-03-04,,,True,COLD_WEATHER
+M019,Banga Soup,C02,Banga Soup - soups & stews signature,6500.0,1480.0,440,20,False,2023-08-19,,,True,NONE
+M020,Pepper Soup Goat,C02,Pepper Soup Goat - soups & stews signature,7000.0,2480.0,301,31,False,2023-10-02,,,True,COLD_WEATHER
+M021,Pepper Soup Catfish,C02,Pepper Soup Catfish - soups & stews signature,7500.0,2800.0,409,13,False,2024-09-12,,,True,COLD_WEATHER
+M022,Tomato Basil Soup,C02,Tomato Basil Soup - soups & stews signature,3800.0,1310.0,369,28,True,2022-05-26,,,True,COLD_WEATHER
+M023,Chicken Noodle Soup,C02,Chicken Noodle Soup - soups & stews signature,4200.0,1720.0,440,20,False,2025-08-31,,,True,COLD_WEATHER
+M024,Mushroom Cream Soup,C02,Mushroom Cream Soup - soups & stews signature,4200.0,2940.0,317,19,True,2022-03-02,,,True,NONE
+M025,Oxtail Stew,C02,Oxtail Stew - soups & stews signature,9000.0,3540.0,412,3,False,2024-09-21,,,True,NONE
+M026,Ayamase Stew,C02,Ayamase Stew - soups & stews signature,6800.0,1270.0,407,30,False,2025-06-18,,,True,NONE
+M027,Afang Soup,C02,,6500.0,2290.0,321,8,False,2023-08-09,,,True,NONE
+M028,Seafood Chowder,C02,Seafood Chowder - soups & stews signature,8500.0,5540.0,362,9,False,2022-11-07,,2026-07-01,False,NONE
+M029,Jollof Rice,C03,Jollof Rice - rice & grains signature,3500.0,990.0,345,19,False,2025-08-06,,,True,NONE
+M030,Fried Rice,C03,Fried Rice - rice & grains signature,3800.0,980.0,426,6,False,2024-06-13,,,True,NONE
+M031,Coconut Rice,C03,Coconut Rice - rice & grains signature,4000.0,1330.0,420,23,False,2024-09-23,,,True,NONE
+M032,Ofada Rice,C03,Ofada Rice - rice & grains signature,5200.0,970.0,414,22,False,2024-11-25,,,True,NONE
+M033,Native Jollof,C03,Native Jollof - rice & grains signature,4200.0,1380.0,368,11,False,2023-01-06,,,True,NONE
+M034,Basmati Pilau,C03,Basmati Pilau - rice & grains signature,4500.0,1640.0,328,29,False,2022-11-16,,,True,NONE
+M035,Beans & Plantain,C03,Beans & Plantain - rice & grains signature,3200.0,990.0,323,20,True,2024-02-19,,,True,NONE
+M036,Ewa Agoyin,C03,Ewa Agoyin - rice & grains signature,3500.0,1090.0,424,13,False,2022-01-29,,,True,NONE
+M037,Yam Porridge,C03,Yam Porridge - rice & grains signature,4000.0,1480.0,337,33,True,2022-11-04,,,True,COLD_WEATHER
+M038,Fisherman Rice,C03,Fisherman Rice - rice & grains signature,7500.0,2460.0,360,32,False,2026-04-15,2026-04-15,,True,NONE
+M039,Mushroom Risotto,C03,Mushroom Risotto - rice & grains signature,6500.0,2380.0,416,22,True,2024-02-22,,,True,NONE
+M040,Egg Fried Rice,C03,Egg Fried Rice - rice & grains signature,4200.0,1430.0,402,23,False,2024-11-17,,,True,NONE
+M041,White Rice & Stew,C03,White Rice & Stew - rice & grains signature,3300.0,2160.0,355,26,False,2023-04-02,,,True,NONE
+M042,Concoction Rice,C03,Concoction Rice - rice & grains signature,4500.0,2940.0,415,13,False,2023-03-19,,2026-06-15,False,NONE
+M043,Grilled Chicken Half,C04,Grilled Chicken Half - grills & bbq signature,7500.0,2180.0,376,8,False,2024-10-31,,,True,NONE
+M044,Grilled Tilapia,C04,Grilled Tilapia - grills & bbq signature,8500.0,3650.0,374,26,False,2024-09-19,,,True,NONE
+M045,Asun Peppered Goat,C04,Asun Peppered Goat - grills & bbq signature,6500.0,1540.0,368,34,False,2023-07-04,,,True,NONE
+M046,Suya Platter,C04,Suya Platter - grills & bbq signature,6000.0,1530.0,251,21,False,2024-12-09,,,True,NONE
+M047,BBQ Ribs,C04,BBQ Ribs - grills & bbq signature,11000.0,4530.0,369,30,False,2022-11-15,,,True,NONE
+M048,Grilled Salmon,C04,Grilled Salmon - grills & bbq signature,15000.0,5530.0,396,13,False,2022-06-11,,,True,NONE
+M049,Beef Steak,C04,Beef Steak - grills & bbq signature,16000.0,6980.0,281,5,False,2023-02-27,,,True,NONE
+M050,Lamb Chops,C04,Lamb Chops - grills & bbq signature,17500.0,6970.0,372,18,False,2025-06-17,,,True,NONE
+M051,Turkey Wings,C04,Turkey Wings - grills & bbq signature,8000.0,3670.0,420,6,False,2023-01-01,2025-11-15,2026-01-10,True,LIMITED_TIME
+M052,Peppered Croaker,C04,Peppered Croaker - grills & bbq signature,9000.0,3860.0,443,17,False,2026-05-01,2026-05-01,,True,NONE
+M053,Grilled Prawns,C04,Grilled Prawns - grills & bbq signature,13000.0,5070.0,449,24,False,2023-06-12,,,True,NONE
+M054,Chicken Shawarma Plate,C04,Chicken Shawarma Plate - grills & bbq signature,6500.0,2410.0,386,31,False,2023-01-19,,,True,NONE
+M055,Mixed Grill Platter,C04,Mixed Grill Platter - grills & bbq signature,18000.0,6910.0,432,32,False,2022-01-20,,,True,NONE
+M056,Boli & Fish,C04,Boli & Fish - grills & bbq signature,5500.0,2010.0,298,4,False,2022-02-18,,,True,NONE
+M057,Classic Beef Burger,C05,Classic Beef Burger - burgers & sandwiches signature,5500.0,4030.0,256,6,False,2023-08-26,,,True,NONE
+M058,Double Cheeseburger,C05,Double Cheeseburger - burgers & sandwiches signature,7000.0,6790.0,257,9,False,2022-06-18,,,True,NONE
+M059,Chicken Burger,C05,Chicken Burger - burgers & sandwiches signature,5800.0,2370.0,342,10,False,2022-04-05,,,True,NONE
+M060,Spicy Chicken Burger,C05,Spicy Chicken Burger - burgers & sandwiches signature,6200.0,2220.0,331,28,False,2025-04-08,,,True,NONE
+M061,Veggie Burger,C05,Veggie Burger - burgers & sandwiches signature,5000.0,3180.0,336,11,True,2023-07-19,,,True,NONE
+M062,Club Sandwich,C05,Club Sandwich - burgers & sandwiches signature,5500.0,1960.0,396,7,False,2024-05-26,,,True,NONE
+M063,Chicken Shawarma Wrap,C05,Chicken Shawarma Wrap - burgers & sandwiches signature,4500.0,1670.0,311,29,False,2025-08-04,,,True,NONE
+M064,Beef Shawarma Wrap,C05,Beef Shawarma Wrap - burgers & sandwiches signature,4800.0,4660.0,264,21,False,2022-10-21,,,True,NONE
+M065,Hot Dog Classic,C05,Hot Dog Classic - burgers & sandwiches signature,3500.0,2490.0,368,9,False,2022-11-29,,,True,NONE
+M066,Fish Burger,C05,Fish Burger - burgers & sandwiches signature,5800.0,2180.0,377,19,False,2023-08-06,,,True,NONE
+M067,BLT Sandwich,C05,BLT Sandwich - burgers & sandwiches signature,5000.0,2090.0,376,5,False,2025-03-18,,,True,NONE
+M068,Philly Steak Sandwich,C05,Philly Steak Sandwich - burgers & sandwiches signature,7500.0,2690.0,355,30,False,2023-01-14,,,True,NONE
+M069,Egg Sandwich,C05,Egg Sandwich - burgers & sandwiches signature,3500.0,1250.0,393,17,False,2023-11-09,,,True,NONE
+M070,Gourmet Truffle Burger,C05,,12000.0,4890.0,351,9,False,2026-08-17,2026-08-17,,True,NONE
+M071,Margherita Pizza,C06,Margherita Pizza - pizza & pasta signature,7500.0,2120.0,488,28,True,2025-07-17,,,True,NONE
+M072,Pepperoni Pizza,C06,Pepperoni Pizza - pizza & pasta signature,9500.0,2540.0,469,18,False,2025-08-29,,,True,NONE
+M073,BBQ Chicken Pizza,C06,BBQ Chicken Pizza - pizza & pasta signature,10000.0,2840.0,423,34,False,2022-09-17,,,True,NONE
+M074,Veggie Supreme Pizza,C06,Veggie Supreme Pizza - pizza & pasta signature,8800.0,2430.0,451,24,True,2024-03-02,,,True,NONE
+M075,Suya Pizza,C06,Suya Pizza - pizza & pasta signature,10500.0,2880.0,561,20,False,2026-08-24,2026-08-24,,True,NONE
+M076,Seafood Pizza,C06,Seafood Pizza - pizza & pasta signature,12500.0,3850.0,495,18,False,2024-11-03,,,True,NONE
+M077,Spaghetti Bolognese,C06,Spaghetti Bolognese - pizza & pasta signature,6500.0,4230.0,394,13,False,2023-06-13,,,True,NONE
+M078,Chicken Alfredo,C06,,7500.0,2550.0,453,11,False,2022-09-16,,,True,NONE
+M079,Creamy Seafood Pasta,C06,Creamy Seafood Pasta - pizza & pasta signature,9500.0,3020.0,540,19,False,2025-08-22,,,True,NONE
+M080,Penne Arrabbiata,C06,Penne Arrabbiata - pizza & pasta signature,5800.0,1910.0,512,20,True,2024-08-30,,,True,NONE
+M081,Lasagna,C06,Lasagna - pizza & pasta signature,8000.0,2740.0,537,3,False,2025-08-02,,,True,NONE
+M082,Carbonara,C06,Carbonara - pizza & pasta signature,7200.0,2360.0,410,16,False,2022-06-17,,,True,NONE
+M083,Stir-Fry Noodles,C06,Stir-Fry Noodles - pizza & pasta signature,5500.0,3090.0,555,4,False,2023-08-24,,,True,NONE
+M084,Jollof Spaghetti,C06,Jollof Spaghetti - pizza & pasta signature,4000.0,1110.0,534,26,True,2023-05-19,,,True,NONE
+M085,French Fries,C07,French Fries - sides signature,2500.0,610.0,100,11,True,2023-08-23,,,True,NONE
+M086,Fried Plantain,C07,Fried Plantain - sides signature,1800.0,500.0,178,14,True,2024-07-03,,,True,NONE
+M087,Coleslaw,C07,Coleslaw - sides signature,1500.0,410.0,232,24,True,2024-01-13,,,True,NONE
+M088,Garden Salad,C07,Garden Salad - sides signature,3200.0,970.0,180,7,True,2022-04-25,,,True,NONE
+M089,Moi Moi,C07,Moi Moi - sides signature,1200.0,390.0,237,14,True,2023-11-01,,,True,NONE
+M090,Fried Yam,C07,Fried Yam - sides signature,2500.0,640.0,232,13,True,2022-07-01,,,True,NONE
+M091,Sweet Potato Fries,C07,Sweet Potato Fries - sides signature,2800.0,890.0,234,20,True,2023-04-14,,,True,NONE
+M092,Onion Rings,C07,Onion Rings - sides signature,2600.0,750.0,228,10,True,2023-03-16,,,True,NONE
+M093,Garlic Bread,C07,Garlic Bread - sides signature,2200.0,580.0,218,23,True,2022-12-05,,,True,NONE
+M094,Boiled Plantain,C07,Boiled Plantain - sides signature,1500.0,1050.0,147,6,True,2023-08-15,,,True,NONE
+M095,Mashed Potato,C07,Mashed Potato - sides signature,2000.0,640.0,243,12,True,2025-06-20,,,True,NONE
+M096,Steamed Veg,C07,Steamed Veg - sides signature,2000.0,1120.0,227,6,True,2022-02-25,,,True,NONE
+M097,Eba,C07,Eba - sides signature,1000.0,260.0,159,7,True,2023-10-25,,,True,NONE
+M098,Pounded Yam,C07,Pounded Yam - sides signature,1800.0,560.0,161,16,True,2022-01-03,,,True,NONE
+M099,Chocolate Lava Cake,C08,Chocolate Lava Cake - desserts signature,4500.0,1350.0,182,13,True,2025-05-19,,,True,NONE
+M100,Cheesecake,C08,Cheesecake - desserts signature,4800.0,1470.0,198,4,True,2022-11-05,,,True,NONE
+M101,Ice Cream Sundae,C08,Ice Cream Sundae - desserts signature,3500.0,1070.0,134,18,True,2022-07-27,,,True,HOT_WEATHER
+M102,Fruit Salad,C08,Fruit Salad - desserts signature,3000.0,850.0,179,8,True,2022-11-23,,,True,HOT_WEATHER
+M103,Chin Chin Jar,C08,Chin Chin Jar - desserts signature,2500.0,750.0,198,5,True,2025-07-31,2025-12-01,2026-01-10,True,LIMITED_TIME
+M104,Banana Split,C08,Banana Split - desserts signature,4000.0,1060.0,202,13,True,2023-05-04,,,True,HOT_WEATHER
+M105,Tiramisu,C08,Tiramisu - desserts signature,5000.0,910.0,214,12,True,2024-06-08,,,True,NONE
+M106,Brownie with Ice Cream,C08,Brownie with Ice Cream - desserts signature,4200.0,1270.0,127,8,False,2024-09-24,,,True,NONE
+M107,Waffle & Syrup,C08,Waffle & Syrup - desserts signature,4200.0,1300.0,196,21,True,2024-02-20,,,True,NONE
+M108,Crepe Nutella,C08,Crepe Nutella - desserts signature,4000.0,1120.0,137,12,True,2025-04-26,,,True,NONE
+M109,Apple Pie,C08,Apple Pie - desserts signature,3800.0,2570.0,233,22,True,2025-02-17,,,True,NONE
+M110,Coconut Pudding,C08,Coconut Pudding - desserts signature,3200.0,1950.0,213,34,True,2024-04-04,,,True,NONE
+M111,Puff Puff & Chocolate,C08,Puff Puff & Chocolate - desserts signature,3000.0,830.0,173,27,True,2023-08-01,,,True,NONE
+M112,Yoghurt Parfait,C08,Yoghurt Parfait - desserts signature,3200.0,930.0,239,30,True,2025-04-16,,,True,NONE
+M113,Cola 50cl,C09,Cola 50cl - cold drinks signature,1000.0,660.0,394,5,False,2024-05-21,,,True,NONE
+M114,Orange Soda 50cl,C09,Orange Soda 50cl - cold drinks signature,1000.0,720.0,476,28,False,2024-09-28,,,True,NONE
+M115,Chapman,C09,Chapman - cold drinks signature,2500.0,630.0,394,32,False,2025-08-26,,,True,NONE
+M116,Zobo,C09,Zobo - cold drinks signature,1800.0,360.0,427,32,False,2025-04-13,,,True,NONE
+M117,Kunu,C09,Kunu - cold drinks signature,1500.0,340.0,357,4,False,2023-03-25,,,True,HOT_WEATHER
+M118,Fresh Orange Juice,C09,Fresh Orange Juice - cold drinks signature,2800.0,650.0,411,9,False,2023-04-04,,,True,NONE
+M119,Pineapple Juice,C09,Pineapple Juice - cold drinks signature,2800.0,690.0,411,10,False,2022-01-12,,,True,NONE
+M120,Watermelon Juice,C09,Watermelon Juice - cold drinks signature,2800.0,620.0,461,31,False,2024-05-30,2026-02-01,2026-04-30,True,LIMITED_TIME
+M121,Bottled Water,C09,Bottled Water - cold drinks signature,600.0,160.0,381,16,False,2025-06-24,,,True,NONE
+M122,Sparkling Water,C09,Sparkling Water - cold drinks signature,1200.0,300.0,348,30,False,2022-05-11,,,True,NONE
+M123,Iced Tea,C09,Iced Tea - cold drinks signature,2200.0,570.0,459,4,False,2022-05-30,,,True,HOT_WEATHER
+M124,Lemonade,C09,Lemonade - cold drinks signature,2200.0,490.0,435,8,False,2022-10-07,,,True,HOT_WEATHER
+M125,Smoothie Mango,C09,Smoothie Mango - cold drinks signature,3800.0,920.0,478,20,False,2024-02-15,2026-03-01,2026-06-30,True,LIMITED_TIME
+M126,Malt Drink,C09,Malt Drink - cold drinks signature,1200.0,280.0,385,19,False,2023-12-18,,,True,NONE
+M127,Espresso,C10,Espresso - hot drinks signature,2000.0,410.0,212,5,False,2023-05-01,,,True,NONE
+M128,Americano,C10,Americano - hot drinks signature,2500.0,470.0,238,6,False,2023-10-13,,,True,NONE
+M129,Cappuccino,C10,Cappuccino - hot drinks signature,3200.0,830.0,253,29,False,2023-12-15,,,True,NONE
+M130,Latte,C10,Latte - hot drinks signature,3500.0,760.0,255,4,False,2025-08-27,,,True,NONE
+M131,Hot Chocolate,C10,Hot Chocolate - hot drinks signature,3200.0,700.0,221,19,False,2025-01-21,,,True,COLD_WEATHER
+M132,Green Tea,C10,Green Tea - hot drinks signature,2200.0,400.0,279,7,False,2023-08-15,,,True,NONE
+M133,Masala Tea,C10,Masala Tea - hot drinks signature,2200.0,470.0,272,12,False,2023-07-13,,,True,COLD_WEATHER
+M134,Ginger Tea,C10,Ginger Tea - hot drinks signature,2000.0,410.0,298,30,False,2024-06-09,,,True,COLD_WEATHER
+M135,Mocha,C10,Mocha - hot drinks signature,3800.0,770.0,230,25,False,2026-03-15,2026-03-15,,True,NONE
+M136,Flat White,C10,Flat White - hot drinks signature,3500.0,700.0,233,16,False,2023-05-10,,,True,NONE
+M137,Iced Coffee,C10,Iced Coffee - hot drinks signature,3800.0,750.0,209,7,False,2025-01-21,,,True,HOT_WEATHER
+M138,Caramel Macchiato,C10,Caramel Macchiato - hot drinks signature,4200.0,760.0,275,10,False,2024-06-03,,,True,NONE
+M139,Hot Lemon Honey,C10,Hot Lemon Honey - hot drinks signature,2200.0,410.0,267,26,False,2023-01-15,2025-12-01,2026-02-28,True,LIMITED_TIME
+M140,Chocolate Malt Drink,C10,Chocolate Malt Drink - hot drinks signature,2500.0,540.0,206,13,False,2022-10-01,,,True,NONE
+M141,Kids Chicken Nuggets,C11,Kids Chicken Nuggets - kids meals signature,3500.0,1190.0,237,14,False,2024-08-04,,,True,NONE
+M142,Kids Mini Burger,C11,Kids Mini Burger - kids meals signature,3200.0,1210.0,231,13,False,2023-08-23,,,True,NONE
+M143,Kids Jollof & Chicken,C11,Kids Jollof & Chicken - kids meals signature,3500.0,1340.0,224,10,False,2022-01-29,,,True,NONE
+M144,Kids Pasta,C11,Kids Pasta - kids meals signature,3000.0,1030.0,196,21,False,2024-10-26,,,True,NONE
+M145,Kids Fish Fingers,C11,Kids Fish Fingers - kids meals signature,3500.0,1140.0,150,17,False,2023-05-10,,,True,NONE
+M146,Kids Pizza,C11,Kids Pizza - kids meals signature,3800.0,1210.0,178,9,False,2024-12-12,,,True,NONE
+M147,Kids Fries Combo,C11,Kids Fries Combo - kids meals signature,2800.0,960.0,156,21,False,2024-05-04,,,True,NONE
+M148,Kids Pancakes,C11,Kids Pancakes - kids meals signature,3000.0,1140.0,165,16,False,2024-12-03,,,True,NONE
+M149,Kids Sausage Roll,C11,Kids Sausage Roll - kids meals signature,2200.0,770.0,249,6,False,2022-02-02,,,True,NONE
+M150,Kids Fruit Cup,C11,Kids Fruit Cup - kids meals signature,2200.0,860.0,186,24,False,2022-05-09,,,True,NONE
+M151,Kids Mac & Cheese,C11,Kids Mac & Cheese - kids meals signature,3200.0,1190.0,182,25,False,2023-06-17,,,True,NONE
+M152,Kids Egg & Toast,C11,Kids Egg & Toast - kids meals signature,2500.0,1710.0,180,20,False,2024-12-17,,,True,NONE
+M153,Kids Rice & Stew,C11,Kids Rice & Stew - kids meals signature,3000.0,930.0,153,26,False,2022-05-14,,,True,NONE
+M154,Kids Milkshake,C11,Kids Milkshake - kids meals signature,2800.0,890.0,154,5,False,2026-09-05,2026-09-05,,True,NONE
+M155,Full English Breakfast,C12,Full English Breakfast - breakfast & brunch signature,8500.0,2950.0,362,12,False,2023-12-29,,,True,NONE
+M156,Akara & Pap,C12,Akara & Pap - breakfast & brunch signature,3500.0,1070.0,274,8,True,2023-05-12,,,True,NONE
+M157,Pancake Stack,C12,Pancake Stack - breakfast & brunch signature,4800.0,1540.0,317,8,True,2022-08-31,,,True,NONE
+M158,Cheese Omelette,C12,Cheese Omelette - breakfast & brunch signature,4200.0,1500.0,287,26,False,2025-03-27,,,True,NONE
+M159,Yam & Egg,C12,Yam & Egg - breakfast & brunch signature,4500.0,1490.0,257,14,False,2023-12-18,,,True,NONE
+M160,Bread & Egg Sauce,C12,Bread & Egg Sauce - breakfast & brunch signature,3500.0,1130.0,363,11,False,2023-10-19,,,True,NONE
+M161,Avocado Toast,C12,Avocado Toast - breakfast & brunch signature,5000.0,1570.0,250,22,True,2026-04-01,2026-04-01,,True,NONE
+M162,French Toast,C12,French Toast - breakfast & brunch signature,4500.0,1360.0,321,4,True,2025-04-22,,,True,NONE
+M163,Breakfast Burrito,C12,Breakfast Burrito - breakfast & brunch signature,5500.0,1840.0,264,6,False,2026-02-01,2026-02-01,,True,NONE
+M164,Oatmeal Bowl,C12,Oatmeal Bowl - breakfast & brunch signature,3500.0,2000.0,328,14,True,2023-07-25,,,True,NONE
+M165,Fruit & Yoghurt Bowl,C12,Fruit & Yoghurt Bowl - breakfast & brunch signature,4000.0,1350.0,264,4,True,2024-08-02,,,True,NONE
+M166,Sausage & Egg Roll,C12,Sausage & Egg Roll - breakfast & brunch signature,3200.0,950.0,271,34,False,2022-06-05,,,True,NONE
+M167,Shakshuka,C12,Shakshuka - breakfast & brunch signature,5200.0,1060.0,370,28,True,2026-01-20,2026-01-20,,True,NONE
+M168,Granola Bowl,C12,Granola Bowl - breakfast & brunch signature,4200.0,2620.0,320,7,True,2025-08-14,,,True,NONE

@@ -1,0 +1,7 @@
+relationship,spearman_correlation,n_items
+price level vs Demand (units),-0.23213197661687496,168
+price level vs Revenue,0.3086845908491484,168
+price level vs Profit %,-0.3034009544725615,168
+price level vs Discount %,0.6002324822550961,168
+price level vs Rating,0.18327057320871384,168
+price level vs Repeat purchase rate,-0.2304526028511909,168

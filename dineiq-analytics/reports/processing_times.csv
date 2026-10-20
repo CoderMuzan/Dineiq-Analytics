@@ -92,3 +92,8 @@ job,step,seconds,logged_at
 06_analytics,13_baskets.sql,29.67,2026-10-12 21:20:18
 06_analytics,14_peak_periods.sql,9.82,2026-10-12 21:20:28
 06_analytics,15_wastage.sql,10.05,2026-10-12 21:20:38
+01_ingest,load+validate orders,2.92,2026-10-21 00:17:12
+02_data_quality,orders checks,0.18,2026-10-21 00:18:37
+03_clean,customers,12.44,2026-10-21 00:20:04
+01_ingest,load+validate orders,1.95,2026-10-21 00:21:23
+01_ingest,load+validate orders,2.86,2026-10-21 00:23:47
